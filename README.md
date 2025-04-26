@@ -25,4 +25,8 @@ building this project, so without their instrumental help, none of this would ha
 <br> kenneth.chen@bc.edu
 
 Here are some sample images of my app:
+<br>
+![Image](https://github.com/user-attachments/assets/7c1f7f5a-71b0-4f4e-84d4-9db2a36e3dfb)
+![Image](https://github.com/user-attachments/assets/9c12aca8-b7cc-4062-8459-223aa05fdbe8)
+![Image](https://github.com/user-attachments/assets/cc98bb60-3652-4528-9f62-2a27a8da8c6b)
 
