@@ -6,14 +6,35 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9F04315E2DBB3D5300EFC630 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9F04315D2DBB3D5300EFC630 /* FirebaseFirestore */; };
+		9F0431602DBB3D5300EFC630 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9F04315F2DBB3D5300EFC630 /* FirebaseStorage */; };
+		9F04317F2DBB3E6300EFC630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F0431782DBB3E6300EFC630 /* Assets.xcassets */; };
+		9F0431802DBB3E6300EFC630 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F04317D2DBB3E6300EFC630 /* GoogleService-Info.plist */; };
+		9F0431842DBB3E6300EFC630 /* EagleEyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F04317C2DBB3E6300EFC630 /* EagleEyeApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9F0431482DBB135400EFC630 /* EagleEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EagleEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0431782DBB3E6300EFC630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F04317C2DBB3E6300EFC630 /* EagleEyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EagleEyeApp.swift; sourceTree = "<group>"; };
+		9F04317D2DBB3E6300EFC630 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9F04314A2DBB135400EFC630 /* EagleEye */ = {
+		9F0431852DBB3E6F00EFC630 /* Views */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = EagleEye;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9F7E34A22DBBEE8900864AEB /* Structs */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		9F7E34A32DBBEE9100864AEB /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F04315E2DBB3D5300EFC630 /* FirebaseFirestore in Frameworks */,
+				9F0431602DBB3D5300EFC630 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +55,7 @@
 		9F04313F2DBB135400EFC630 = {
 			isa = PBXGroup;
 			children = (
-				9F04314A2DBB135400EFC630 /* EagleEye */,
+				9F04317E2DBB3E6300EFC630 /* EagleEye */,
 				9F0431492DBB135400EFC630 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +66,19 @@
 				9F0431482DBB135400EFC630 /* EagleEye.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9F04317E2DBB3E6300EFC630 /* EagleEye */ = {
+			isa = PBXGroup;
+			children = (
+				9F7E34A22DBBEE8900864AEB /* Structs */,
+				9F0431852DBB3E6F00EFC630 /* Views */,
+				9F7E34A32DBBEE9100864AEB /* ViewModels */,
+				9F04317C2DBB3E6300EFC630 /* EagleEyeApp.swift */,
+				9F0431782DBB3E6300EFC630 /* Assets.xcassets */,
+				9F04317D2DBB3E6300EFC630 /* GoogleService-Info.plist */,
+			);
+			path = EagleEye;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,10 +97,14 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9F04314A2DBB135400EFC630 /* EagleEye */,
+				9F0431852DBB3E6F00EFC630 /* Views */,
+				9F7E34A22DBBEE8900864AEB /* Structs */,
+				9F7E34A32DBBEE9100864AEB /* ViewModels */,
 			);
 			name = EagleEye;
 			packageProductDependencies = (
+				9F04315D2DBB3D5300EFC630 /* FirebaseFirestore */,
+				9F04315F2DBB3D5300EFC630 /* FirebaseStorage */,
 			);
 			productName = EagleEye;
 			productReference = 9F0431482DBB135400EFC630 /* EagleEye.app */;
@@ -94,6 +134,9 @@
 			);
 			mainGroup = 9F04313F2DBB135400EFC630;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9F04315C2DBB3D5300EFC630 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9F0431492DBB135400EFC630 /* Products */;
 			projectDirPath = "";
@@ -109,6 +152,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F04317F2DBB3E6300EFC630 /* Assets.xcassets in Resources */,
+				9F0431802DBB3E6300EFC630 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F0431842DBB3E6300EFC630 /* EagleEyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +370,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F04315C2DBB3D5300EFC630 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F04315D2DBB3D5300EFC630 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F04315C2DBB3D5300EFC630 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9F04315F2DBB3D5300EFC630 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F04315C2DBB3D5300EFC630 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9F0431402DBB135400EFC630 /* Project object */;
 }
