@@ -24,7 +24,9 @@ building this project, so without their instrumental help, none of this would ha
 <br> https://linkedin.com/in/chenaun
 <br> kenneth.chen@bc.edu
 
-Here are some sample images of my app:
+<br> Here is a link to a quick sample walkthrough of my app: https://youtube.com/shorts/qCalEfNSO4M?feature=share
+
+<br> Here are some sample images of my app:
 <br>
 ![Image](https://github.com/user-attachments/assets/7c1f7f5a-71b0-4f4e-84d4-9db2a36e3dfb)
 ![Image](https://github.com/user-attachments/assets/9c12aca8-b7cc-4062-8459-223aa05fdbe8)
