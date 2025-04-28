@@ -1,3 +1,5 @@
+**Note: You may need to build this on your iPhone instead of the simulator, I ran into issues pulling images in the Xcode simulator but it fully functions on my iPhone**
+
 Hi! I'm Kenneth, a senior studying Computer Science at Boston College. Here's my final project for BZAN2165: Intro to Programming using Swift for iOS App Development. 
 
 My app is Eagle Eye, an iOS app for students to report maintenance issues at various academic buildings across Boston College's main campus. I was inspired by complaints by my friends
